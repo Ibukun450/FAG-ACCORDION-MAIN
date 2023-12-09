@@ -1,0 +1,31 @@
+/* Default Styles */
+.attribution { font-size: 11px; text-align: center; margin: 50px 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+html { box-sizing: border-box; }
+*, *::after, *::before { box-sizing: inherit; margin: 0; padding: 0;}
+body { background-color: hsl(275, 100%, 97%); display: flex; justify-content: center; align-items: center; min-height: 100vh; flex-direction: column; background-image: url(assets/images/background-pattern-desktop.svg); background-position: top; background-size: 1500px; background-repeat: no-repeat; font-family: 'Work Sans', sans-serif; }
+.main-container { background-color: #fff; border-radius: 15px; padding: 20px; margin-top: 150px; width: auto; height: auto; }
+
+/* Element Styles */
+
+.main-section { 
+    display: flex; margin-bottom: 30px;
+    width: 600px;
+}
+
+.main-section img { padding-right: 15px; }
+
+.main-section h3 { font-size: 50px; }
+
+.section {  margin-bottom: 50px; width: 600px; }
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.head h3 { color: hsl(292, 42%, 14%); }
+
+.section p { color:  hsl(292, 16%, 49%); line-height: 25px; font-size: 16px; }
